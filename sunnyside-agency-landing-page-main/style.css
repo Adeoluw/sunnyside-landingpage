@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 
 /* header > img{
@@ -129,31 +130,144 @@ header> h1{
     width: 100%;
 }
 
-.section-img-with-text{
+.section-three-one{
     width: 50%;
-
+    position: relative;
 }
 
-.section-img-with-text img{
+.section-three-two{
+    width: 50%;
+    position: relative;
+}
+
+.section-three-one-img{
     width: 100%;
-            position: relative;
+}
+.section-three-one-img > img{
+    width: 100%;
+}
+
+.section-three-two-img{
+    width: 100%;
+}
+
+.section-three-two-img > img{
+    width: 100%;
 }
 
 
-.section-img-text{
-    width: 50%;
-    position: absolute;
+.section-three-one-text{
+        position: absolute;
+            padding-inline: 100px;
+            bottom: 65px;
+            color: hsl(167, 40%, 24%);
+            text-align: center;
+        
+}
+
+.section-three-one-text > p{
+    margin-top: 15px;
+}
+
+.section-three-one-text > h4{
+    margin-top: 15px;
+    font-size: 25px;
+    color: hsl(167, 40%, 24%);
+}
+
+.section-three-two-text > p{
+    margin-top: 15px;
+}
+
+.section-three-two-text > h4{
+    margin-top: 15px;
+    color: hsl(198, 62%, 26%);
+        font-size: 25px;
+}
+
+.section-three-two-text{
+        position: absolute;
+            padding-inline: 100px;
+            bottom: 65px;
+            text-align: center;
+            color: hsl(198, 62%, 26%);
+        
+}
+
+.testimonials-con > h4{
     text-align: center;
+    margin-top: 65px;
 }
 
-.section-img-text-two{
-    width: 50%;
-    position: absolute;
+.testimonials{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding-inline: 40px;
     text-align: center;
-    right: 0;
+        padding-inline: 70px;
 }
 
-.section-img-con{
-    width: 50%;
+.testimonial-text{
+    margin-top: 30px;
+        padding-inline: 35px;
 }
 
+.testimonial-img-one{
+    background-image: url(./images/image-emily.jpg);
+    height: 70px;
+    border-radius: 50%;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.testimonial-img-two{
+    background-image: url(./images/image-thomas.jpg);
+    height: 70px;
+        border-radius: 50%;
+        width: 70px;
+        background-repeat: no-repeat;
+            background-size: contain;
+}
+
+.testimonial-img-three{
+    background-image: url(./images/image-jennie.jpg);
+    height: 70px;
+        border-radius: 50%;
+        width: 70px;
+        background-repeat: no-repeat;
+            background-size: contain;
+}
+
+.testimonial-img-con{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-info{
+    margin-top: 25px;
+}
+
+.testimonial-text{
+     color:hsl(212, 27%, 19%);
+}
+
+.testimonial-info p{
+    margin-top: 10px;
+    color: hsl(210, 4%, 67%);
+    font-size: 16px;
+}
+
+.testimonial-info h4{
+    font-weight: 900;
+    font-size: 20px;
+    color: hsl(212, 27%, 19%);
+}
+
+.testimonials-con > h4{
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    color: hsl(210, 4%, 67%);
+}
