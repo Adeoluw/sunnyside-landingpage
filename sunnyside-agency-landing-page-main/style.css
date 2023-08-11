@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header > img{
+    position: absolute;
+
+} */
+
+@font-face {
+    font-family: Barlow;
+    src: url(https://fonts.google.com/specimen/Barlow);
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    padding: 20px;
+    background-position: center;
+}
+
+.logo-nav{
+    display: flex;
+}
+
+.logo-nav > h4{
+    color: white;
+    font-size: 25px;
+}
+
+nav{
+    margin-left: auto;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > ul li{
+    color: white;
+    margin-right: 55px;
+    list-style-type: none;
+}
+
+header> h1{
+    color: white;
+    font-family: Fraunces;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.arrow-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.arrow-down > img{
+    height: 100px;
+    width: auto;
+
+}
+
+.section-one{
+    display: flex;
+    width: 100%;
+}
+
+.section-text{
+    width: 50%;
+    background-color: white;
+    color: black;
+        padding-inline: 130px;
+            padding-block: 100px;
+}
+
+.section-text h3{
+    font-family: sans-serif;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    font-size: 30px;
+}
+
+.section-text p{
+    color: hsl(232, 10%, 55%);
+    margin-top: 35px;
+    line-height: 5px;
+    line-height: 19px;
+}
+
+.section-img{
+    width: 50%;
+}
+
+.section-img img{
+    width: 100%;
+}
+
+.learn-more{
+    color: black;
+    letter-spacing: 2px;
+}
+
+.learn-more a{
+    color: black;
+        font-weight: 900;
+}
+
+.section-two{
+    display: flex;
+    width: 100%;
+}
+
+.section-three{
+    display: flex;
+    width: 100%;
+}
+
+.section-img-with-text{
+    width: 50%;
+
+}
+
+.section-img-with-text img{
+    width: 100%;
+            position: relative;
+}
+
+
+.section-img-text{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+.section-img-text-two{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    right: 0;
+}
+
+.section-img-con{
+    width: 50%;
+}
+
