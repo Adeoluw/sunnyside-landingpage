@@ -329,6 +329,22 @@ header> h1{
     display: none;
 }
 
+.desktop-transform {
+    display: block;
+}
+
+.mobile-transform {
+    display: none;
+}
+
+.desktop-stand-out{
+    display: block;
+}
+
+.mobile-stand-out{
+    display: none;
+}
+
 
 .foot-designs{
     display: flex;
@@ -563,6 +579,22 @@ footer > h3{
 }
 
 .mobile-sugar-cubes{
+    display: block;
+}
+
+.desktop-transform{
+    display: none;
+}
+
+.mobile-transform{
+    display: block;
+}
+
+.desktop-stand-out {
+    display: none;
+}
+
+.mobile-stand-out {
     display: block;
 }
 
