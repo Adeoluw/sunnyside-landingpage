@@ -376,6 +376,16 @@ footer > h3{
 
 @media only screen and (max-width: 425px) {
 
+
+    header {
+            background-image: url(./images/mobile/image-header.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            padding: 20px;
+            background-position: center;
+        }
+
     .logo-nav{
         display: flex;
 
@@ -391,6 +401,7 @@ footer > h3{
             top: 90px;
             opacity: 0;
             z-index: 0;
+            align-items: center;
     }
 
     nav ul{
