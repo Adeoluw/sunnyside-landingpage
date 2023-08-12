@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     font-size: 18px;
 }
 
@@ -66,7 +67,7 @@ header> h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .arrow-down > img{
@@ -81,11 +82,12 @@ header> h1{
 }
 
 .section-text{
-    width: 50%;
+    width: 100%;
     background-color: white;
     color: black;
-        padding-inline: 130px;
-            padding-block: 100px;
+        padding-inline: 230px;
+            padding-block: 150px;
+            font-size: 20px;
 }
 
 .section-text h3{
@@ -130,6 +132,14 @@ header> h1{
     width: 100%;
 }
 
+.mobile-graphic{
+    display: none;
+}
+
+.desktop-graphic{
+    display: block;
+}
+
 .section-three-one{
     width: 50%;
     position: relative;
@@ -143,7 +153,7 @@ header> h1{
 .section-three-one-img{
     width: 100%;
 }
-.section-three-one-img > img{
+.section-three-one-img  img{
     width: 100%;
 }
 
@@ -151,15 +161,22 @@ header> h1{
     width: 100%;
 }
 
-.section-three-two-img > img{
+.section-three-two-img  img{
     width: 100%;
 }
 
+.mobile-photography{
+    display: none;
+}
+
+.desktop-photography{
+    display: block;
+}
 
 .section-three-one-text{
         position: absolute;
             padding-inline: 100px;
-            bottom: 65px;
+            bottom: 105px;
             color: hsl(167, 40%, 24%);
             text-align: center;
         
@@ -188,7 +205,7 @@ header> h1{
 .section-three-two-text{
         position: absolute;
             padding-inline: 100px;
-            bottom: 65px;
+            bottom: 105px;
             text-align: center;
             color: hsl(198, 62%, 26%);
         
@@ -277,6 +294,39 @@ header> h1{
     width: 25%;
 }
 
+.desktop-bottles{
+    display: block;
+}
+
+.mobile-bottles{
+    display: none;
+}
+
+.desktop-orange {
+    display: block;
+}
+
+.mobile-orange {
+    display: none;
+}
+
+.desktop-cone{
+    display: block;
+}
+
+.mobile-cone{
+    display: none;
+}
+
+.desktop-sugar-cubes {
+    display: block;
+}
+
+.mobile-sugar-cubes {
+    display: none;
+}
+
+
 .foot-designs{
     display: flex;
     justify-content: center;
@@ -303,7 +353,7 @@ footer > h3{
 .foot-nav li{
     list-style-type: none;
     color: hsl(167, 40%, 24%);
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: 20px;
 }
 
@@ -315,4 +365,174 @@ footer > h3{
 
 .socials i{
     margin-left: 30px;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .logo-nav{
+        display: flex;
+
+    }   
+
+    nav{
+        margin-left: auto;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            width: 100%;
+                height: 35vh;
+    }
+
+    nav ul{
+        display: block;
+        margin-inline: auto;
+        width: 80%;
+        background-color: white;
+        text-align: center;
+    }
+
+    nav ul li{
+        color: black;
+    }
+
+     .section-one {
+         display: flex;
+         flex-direction: column-reverse;
+         width: 100%;
+       }
+
+     .section-text {
+               width: 100%;
+               background-color: white;
+               color: black;
+               padding-inline: 20px;
+               padding-block: 50px;
+               font-size: 20px;
+               text-align: center;
+   }
+
+    .section-img {
+      width: 100%;
+     }
+    
+
+    .section-two {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+ }
+                
+.section-three {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-three-one {
+    width: 100%;
+    position: relative;
+}
+
+.section-three-two {
+    width: 100%;
+    position: relative;
+}
+
+.section-three-one-text {
+    position: absolute;
+    padding-inline: 10px;
+    bottom: 45px;
+    font-size: 15px;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+}
+
+.mobile-photography{
+    display: block;
+}
+
+.desktop-photography{
+    display: none;
+}
+
+.mobile-graphic {
+    display: block;
+}
+
+.desktop-graphic {
+    display: none;
+}
+
+.section-three-two-text {
+    position: absolute;
+        padding-inline: 10px;
+        bottom: 45px;
+        font-size: 15px;
+        color: hsl(167, 40%, 24%);
+        text-align: center;
+}
+
+.testimonials{
+    flex-direction: column;
+}
+
+.testimonial{
+    margin-top: 55px;
+}
+
+.testimonial-text {
+    margin-top: 30px;
+    padding-inline: 0px;
+}
+
+.desktop-bottles {
+    display: none;
+}
+
+.mobile-bottles {
+    display: block;
+
+}
+
+.desktop-orange{
+    display: none;
+
+}
+
+.mobile-orange{
+    display: block;
+}
+
+.desktop-cone {
+    display: none;
+}
+
+.mobile-cone {
+    display: block;
+}
+
+.desktop-sugar-cubes{
+    display: none;
+}
+
+.mobile-sugar-cubes{
+    display: block;
+}
+
+.foot-designs {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+
+.foot-designs img {
+    width: 100%;
+}
+
+.foot-nav {
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly
+}
 }
