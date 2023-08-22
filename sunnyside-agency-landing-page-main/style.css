@@ -95,8 +95,9 @@ header> h1{
     background-color: white;
     color: black;
         padding-inline: 45px;
-            padding-block: 150px;
             font-size: 20px;
+            margin-top: auto;
+            margin-bottom: auto;
 }
 
 .section-text h3{
@@ -396,14 +397,14 @@ footer > h3{
     display: none;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 700px) {
 
 
     header {
             background-image: url(./images/mobile/image-header.jpg);
             background-size: cover;
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 150vh;
             padding: 20px;
             background-position: center;
         }
@@ -513,6 +514,8 @@ footer > h3{
                padding-block: 50px;
                font-size: 20px;
                text-align: center;
+                margin-top: auto;
+                margin-bottom: auto;
    }
 
     .section-img {
