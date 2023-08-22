@@ -1,5 +1,5 @@
 const openMenu = document.getElementById("open-menu");
-const nav = document.querySelector("nav")
+const nav = document.getElementsByClassName("mobile-nav")[0]
 const body = document.querySelector("body")
 
 // body.addEventListener("click", () => {
